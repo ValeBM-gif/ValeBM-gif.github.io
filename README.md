@@ -8,23 +8,27 @@ El propósito de esta página web es mostrar mi portafolio de proyectos y experi
 
 Primera parte de la página web:
 
-![Primera parte de la página web](imagenes/readme/screenshot1.png)
+![Primera parte de la página web](imagenes/readme/PrimeraParte1.png)
+
+Conóceme:
+
+![Primera parte de la página web](imagenes/readme/Conóceme.png)
 
 Experiencia:
 
-![Experiencia](imagenes/readme/screenshot2.png)
+![Experiencia](imagenes/readme/Experiencia.png)
 
 Proyectos:
 
-![Proyectos](imagenes/readme/screenshot3.png)
+![Proyectos](imagenes/readme/proyectos.png)
 
 Testimonios:
 
-![Testimonios](imagenes/readme/screenshot4.png)
+![Testimonios](imagenes/readme/testimonios.png)
 
 Contacto:
 
-![Contacto](imagenes/readme/screenshot5.png)
+![Contacto](imagenes/readme/Contacto.png)
 
 ## Tecnologías
 
