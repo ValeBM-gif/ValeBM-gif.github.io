@@ -52,9 +52,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#proyectos">Proyectos</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#testimonios">Testimonios</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#contacto">Contacto</a>
             </li>
@@ -66,7 +66,7 @@
     <!-- Seccion Hero -->
     <section class="hero align-items-stretch">
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/vale2.jpg" alt="Foto de Vale">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/vale.jpg" alt="Foto de Vale">
         <h1>Hola, soy Vale</h1>
         <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
 
@@ -74,7 +74,7 @@
         <h2 class="text-primary mb-4" id="typewriter"></h2>
       </div>
       <div class="hero-inferior">
-        <img class="hero-inferior-imagen img-fluid" src="imagenes/compurosa.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/desarrollo.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
       </div>
     </section>
 
@@ -82,7 +82,17 @@
     <section id="sobre-mi" class="sobre-mi seccion-oscura">
       <div class="contenedor">
         <h2 class="seccion-titulo">Conóceme:)</h2>
-        <p class="seccion-texto">Soy Valeria Baeza, actualmente estudiante de ingeniería en software y sistemas computacionales en la universidad de la Salle bajío. Me gusta mucho todo lo relacionado a la programación, especialmente web. Los lenguajes de programación con los que estoy familiarizada son C#, Java y JavaScript. </p>
+        <p class="seccion-texto">
+          Soy Valeria Baeza, actualmente estoy cursando el último semestre de la carrera
+           de ingeniería en software y sistemas computacionales en la universidad de la Salle bajío. 
+           Me gusta mucho todo lo relacionado a la programación, especialmente móvil. 
+           Tengo ya casi 2 años trabajando en una empresa local en donde 
+           me he podido desarrollar más profesionalmente. Soy consciente de que este campo  está en
+           constante evolución debido a los avances tecnológicos y las 
+           nuevas tendencias. Por ello, me apasiona mantenerme en constante aprendizaje 
+           e investigación, lo que me permite estar actualizada y preparada para enfrentar los retos y 
+           oportunidades que surgen en este sector.
+           </p>
       </div>
     </section>
 
@@ -90,36 +100,43 @@
     <section class="experiencia seccion-clara">
       <div class="container text-center">
         <div class="row">
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-phone"></i>
+            <p class="experiencia-titulo">Desarrollo Móvil</p>
+            <p>Me gusta mucho el desarrollo móvil, por lo general 
+              utilizo Flutter, sin embargo, también estoy familiarizada
+               con desarrollo nativo para Android, para iOS 
+               y multiplataforma con .NET MAUI</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Flutter</span>
+              <span class="badge text-bg-primary">iOS</span>
+              <span class="badge text-bg-primary">Android</span>
+              <span class="badge text-bg-primary">.NET MAUI</span>
+            </div>
+          </div>
           <!-- Desarrollo Web -->
           <div class="columna col-12 col-md-4">
             <i class="bi bi-laptop"></i>
             <p class="experiencia-titulo">Desarrollo Web</p>
-            <p>He realizado varios trabajos de desarrollo web, utilizando recursos como HTML, CSS y JavaScript, estoy en proceso de aprender a utilizar React, PHP y NodeJS</p>
+            <p>He realizado varios trabajos de desarrollo web, utilizando recursos 
+              como HTML, CSS y JavaScript, estoy en proceso de aprender a utilizar React y Angular</p>
             <div class="badges-contenedor">
               <span class="badge text-bg-primary">HTML</span>
               <span class="badge text-bg-primary">CSS</span>
               <span class="badge text-bg-primary">JavaScript</span>
             </div>
           </div>
-          <!-- Articulos -->
-          <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Programación</p>
-            <p>Me gusta mucho la programación web, sin embargo también he trabajado con algunas aplicaciones de la mano de Java y C#, utilizando diversos paradigmas de programación.</p>
-            <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Java</span>
-              <span class="badge text-bg-primary">C#</span>
-              <span class="badge text-bg-primary">JavaScript</span>
-            </div>
-          </div>
           <!-- Estudiante -->
           <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
+            <i class="bi bi-mortarboard"></i>
             <p class="experiencia-titulo">Estudiante</p>
-            <p>Estudiante en la universidad de la Salle bajío, actualmente cursando el cuarto semestre de la carrera de ingeniería en software y sistemas computacionales. </p>
+            <p>Estudiante en la universidad de la Salle bajío, actualmente 
+              cursando el octavo semestre de la carrera de ingeniería en software
+               y sistemas computacionales. Recientemente me certifiqué en AWS.</p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
               <span class="badge text-bg-primary">Salle Bajío</span>
+              <span class="badge text-bg-primary">AWS</span>
               <span class="badge text-bg-primary">:)</span>
             </div>
           </div>
@@ -137,13 +154,13 @@
           <!-- Proyecto 1 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/googles.jpg" alt="Proyecto 1">
+              <img src="imagenes/trabajos/evaluaciones.png" alt="Proyecto 1">
               <div class="overlay">
-                <p>Proyecto 1</p>
+                <p>Aplicación de Evaluaciones</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/ValeBM-gif/clonacionGoogle_ValeBM" target="_blank" rel="noopener noreferrer">
+                  <!-- <a href="https://github.com/ValeBM-gif/clonacionGoogle_ValeBM" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
-                  </a>
+                  </a> -->
                   
                 </div>
               </div>
@@ -152,16 +169,16 @@
           <!-- Proyecto 2 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <img src="imagenes/trabajos/crm.png" alt="Proyecto 1">
               <div class="overlay">
-                <p>Proyecto 2</p>
+                <p>CRM</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <!-- <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
                   <a href="#/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
@@ -169,16 +186,16 @@
           <!-- Proyecto 3 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <img src="imagenes/trabajos/whm.png" alt="Proyecto 1">
               <div class="overlay">
-                <p>Proyecto 3</p>
+                <p>Warehouse Management System</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <!-- <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
                   <a href="#/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
@@ -186,16 +203,16 @@
           <!-- Proyecto 4 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <img src="imagenes/trabajos/rh.png" alt="Proyecto 1">
               <div class="overlay">
-                <p>Proyecto 4</p>
+                <p>Human Resources App</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <!-- <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
@@ -203,16 +220,16 @@
           <!-- Proyecto 5 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <img src="imagenes/trabajos/powershop.png" alt="Proyecto 1">
               <div class="overlay">
-                <p>Proyecto 5</p>
+                <p>PowerShop</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <!-- <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
@@ -220,37 +237,40 @@
           <!-- Proyecto 6 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <img src="imagenes/trabajos/tikcets.png" alt="Proyecto 1">
               <div class="overlay">
-                <p>Proyecto 6</p>
+                <p>Tickets Viewer</p>
                 <div class="iconos-contenedor">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <!-- <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-laptop"></i>
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a href="https://github.com/ValeBM-gif/ValeBM-gif" target="_blank" rel="noopener noreferrer">
+      <!-- <a href="https://github.com/ValeBM-gif/ValeBM-gif" target="_blank" rel="noopener noreferrer">
         <button type="button" id="btnMasProyectos" class="btn btn-info">
           Ver más proyectos
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
-      </a>
+      </a> -->
+      <br>
+      <br>
+      <br>
     </section>
 
     <!-- Testimonios -->
-    <section id="testimonios" class="testimonios seccion-clara">
+    <!-- <section id="testimonios" class="testimonios seccion-clara">
       <h2 class="seccion-titulo">Testimonios</h2>
       <h3 class="seccion-descripcion">Estos son algunos testimonios...</h3>
-      
+       -->
       <!-- Carrusel -->
-      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <!-- <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
@@ -292,7 +312,7 @@
           <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contacto -->
     <section id="contacto" class="contacto seccion-oscura">
@@ -304,9 +324,10 @@
               
             </div>
             <div class="col-12 col-md-4 descripcion">
-              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+              Contáctame para iniciar tu proyecto de desarrollo móvil y haré que tu visión se vuelva realidad.
             </div>
             <div class="col-12 col-md-4">
+              <p>Teléfono: +55 477 109 3243</p>
               <a href="mailto:valeryabml@gmail.com">
                 <button type="button">  
                   Contacto
@@ -322,8 +343,7 @@
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
       <img class="footer-logo" src="imagenes/logo.png" alt="Logo del portafolio">
-      <p class="footer-texto text-center">/*You must do the things you think you cannot do.*/</p>
-      <p class="footer-texto text-center"> -Eleanor Roosevelt</p>
+      <p class="footer-texto text-center">If you can dream it, you can code it. ;)</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
         <a href="
         https://wa.me/+524771093243?text=M%C3%A1ndame%20un%20mensaje:)
@@ -343,7 +363,7 @@
           <i class="bi bi-envelope"></i>
         </a>
       </div>
-      <div class="derechos-de-autor">Creado por Jane Doe (2022) &#169;</div>
+      <div class="derechos-de-autor">Creado por Valeria Baeza (2025) &#169;</div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

@@ -22,8 +22,8 @@ section {
 h1 {
   font-size: 2.5rem;
   font-family: 'Fredoka One', cursive;
-  color: #fa947c;
-  letter-spacing:7px;
+  color: #0097B2;
+  letter-spacing:2px;
 }
 
 .seccion-oscura {
@@ -40,7 +40,7 @@ h1 {
   font-size: 2rem;
   padding: 15px 0;
   font-family: 'Fredoka One', cursive;
-  letter-spacing:7px;
+  letter-spacing:2px;
 }
 
 .seccion-descripcion {
@@ -50,12 +50,15 @@ h1 {
 
 .seccion-texto {
   font-size: 1.2rem;
+  text-align: justify;
 }
 
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
+  color: #0097B2 !important;
 }
+
 
 .texto-negro {
   color: black;
@@ -78,7 +81,7 @@ h1 {
 }
 
 .text-primary{
-  padding: 3rem;
+  padding: 1rem;
   color:#584e4e!important;
 }
 
@@ -86,6 +89,8 @@ h1 {
   width: 200px;
   height: 200px;
   margin: 20px;
+  object-fit: cover;
+  transform: rotate(90deg);
 }
 
 .hero-principal h2 {
@@ -104,7 +109,7 @@ h1 {
 .sobre-mi {
   height: 500px;
   padding: 10px;
-  background-color: #7fd37f;
+  background-color: #C6E0E6;
 }
 
 .sobre-mi .contenedor {
@@ -120,7 +125,7 @@ h1 {
 
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #fa937c46;
+  border: 2px solid #0097B2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,21 +135,22 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #fa947c;
+  background-color: #0097B2;
 }
 
 .experiencia i {
   transition: all 0.2s ease-in;
   font-size: 2.5rem;
   color: white;
-  background-color: #fa947c;
+  background-color: #0097B2;
   padding: 8px 19px;
   border-radius: 50%;
 }
 
 .experiencia .columna:hover i{
   color: white;
-  background-color: #7fd37f;
+  background-color: #C6E0E6;
+  
 }
 
 .experiencia-titulo {
@@ -157,25 +163,39 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+  
 }
 
 .badge {
   margin: 5px;
-  background-color: #7fd37f!important;
+  background-color: #C6E0E6!important;
   transition: all 0.2s ease-in;
+  
 }
 
 .experiencia .columna:hover .badge{
-  color: #7fd37f!important;
+  color: #C6E0E6!important;
   background-color: white!important;
 }
 
+.experiencia .columna:hover .badge{
+  color: #C6E0E6!important;
+  background-color: white!important;
+}
+
+.experiencia .columna:hover .badge{
+  color: #0097B2!important;
+}
+
+.experiencia .columna:hover .bi-laptop{
+  color: #0097B2!important;
+}
 
 /* Proyectos */
 
 
 .seccion-titulo{
-  color: #fa947c;
+  color: #0097B2;
 }
 
 .proyectos-recientes {
@@ -206,7 +226,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fa947c;
+  color: #0097B2;
   
 }
 
@@ -236,7 +256,7 @@ h1 {
 }
 
 .overlay i {
-  color: #fa947c;
+  color: #0097B2;
   font-size: 60px;
   margin: 10px;
   padding-left: 23px;
@@ -244,15 +264,15 @@ h1 {
 }
 
 .btn{
-  background-color: #7fd37f;
-  border-color: #7fd37f;
+  background-color: #C6E0E6;
+  border-color: #C6E0E6;
   color: white;
 }
 
 .btn:hover{
-  background-color: #fa947c;
-  border-color: #fa947c;
-  color: black;
+  background-color: #0097B2;
+  border-color: #0097B2;
+  color: black!important;
 }
 
 /* Articulos */
@@ -330,22 +350,22 @@ h1 {
 /* Contacto */
 
 .contacto{
-  background-color: #7fd37f;
+  background-color: #C6E0E6;
 }
 
 .contacto .container {
   max-width: 1100px;
   min-height: 200px;
   padding: 20px;
-  background-color: #7fd37f;
+  background-color: #C6E0E6;
 }
 
 .contacto .rectangulo {
   margin-top: -5rem;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px #fa947c;
-  color: #fa947c;
+  box-shadow: 0px 1px 4px 1px #0097B2;
+  color: #0097B2;
   transition: all 0.2s ease-in-out;
 }
 
@@ -353,7 +373,7 @@ h1 {
   width: 100%;
   display: flex;
   align-items: center;
-  color: #fa947c;
+  color: #0097B2;
 }
 
 .contacto .descripcion {
@@ -362,10 +382,10 @@ h1 {
 }
 
 .contacto button {
-  color: #fa947c;
+  color: #0097B2;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid #fa947c;
+  border: 2px solid #0097B2;
   padding: 1.25em 2em;
   margin: 10px;
   border-radius: 100px;
@@ -374,29 +394,29 @@ h1 {
 
 .contacto button:hover {
   background-color: white;
-  color: #7fd37f;
-  border: 2px solid #7fd37f;
+  color: #C6E0E6;
+  border: 2px solid #C6E0E6;
 }
 
 .contacto button:hover h2{
-  color: #7fd37f;
+  color: #C6E0E6;
 }
 
 .contacto button i {
-  color: #fa947c;
+  color: #0097B2;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
 
 .contacto button:hover i {
-  color: #7fd37f;
+  color: #C6E0E6;
 }
 
 /* Pie de pagina (footer) */
 
 footer {
   min-height: 500px;
-  background-color: #7fd37f!important;
+  background-color: #C6E0E6!important;
   color: white!important;
 }
 
@@ -434,11 +454,11 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid #fa947c;
+  border: 2px solid #0097B2;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: #fa947c;
+  color: #0097B2;
 }
 
 .derechos-de-autor {
