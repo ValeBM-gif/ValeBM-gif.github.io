@@ -36,42 +36,51 @@
 
   <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-toggler">
-          <a class="navbar-brand" href="#">
-            <img src="imagenes/logoN.png" width="50" alt="Logo de la página web">
-          </a>
-          <ul class="navbar-nav d-flex justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#testimonios">Testimonios</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!-- Barra de navegación -->
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/logoN.png" width="50" alt="Logo de la página web">
+      </a>
+      <ul class="navbar-nav d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <!-- Botón de cambio de idioma -->
+          <button id="toggle-language" class="btn btn-secondary btn-sm">English</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
     <!-- Seccion Hero -->
     <section class="hero align-items-stretch">
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
         <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/vale.JPG" alt="Foto de Vale">
-        <h1>Hola, soy Vale</h1>
+        <div class="content-es">
+          <h1 >Hola, soy Vale</h1>
+        </div>
+        <div class="content-en d-none">
+          <h1 >Hi, I'm Vale</h1>
+        </div>
         <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
 
         <!--Animación con JavaScript-->
-        <h2 class="text-primary mb-4" id="typewriter"></h2>
+        <h2 class="text-primary mb-4 content-es" id="typewriter"></h2>
+        <h2 class="text-primary mb-4 content-en d-none" id="typewriter2"></h2>
       </div>
       <div class="hero-inferior">
         <img class="hero-inferior-imagen img-fluid" src="imagenes/desarrollo.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
@@ -80,7 +89,7 @@
 
     <!-- Sobre mi -->
     <section id="sobre-mi" class="sobre-mi seccion-oscura">
-      <div class="contenedor">
+      <div class="contenedor content-es">
         <h2 class="seccion-titulo">Conóceme:)</h2>
         <p class="seccion-texto">
           Soy Valeria Baeza, actualmente estoy cursando el último semestre de la carrera
@@ -94,6 +103,16 @@
            oportunidades que surgen en este sector.
            </p>
       </div>
+      <div class="contenedor content-en d-none">
+        <h2 class="seccion-titulo">Conóceme:)</h2>
+        <p class="seccion-texto">
+          Hi there! I am Valeria Baeza, currently in my final semester of a degree in Software Engineering and Computer Systems at La Salle Bajío University.
+          I am deeply passionate about everything related to programming, especially mobile development.
+          I have been working at a local company for nearly two years, which has allowed me to grow professionally.
+          I am fully aware that this field is constantly evolving due to technological advancements and emerging trends.
+          This is why I am passionate about continuous learning and research, enabling me to stay updated and prepared to tackle the challenges and opportunities that arise in this sector.
+           </p>
+      </div>
     </section>
 
     <!-- Experiencia -->
@@ -101,7 +120,7 @@
       <div class="container text-center">
         <div class="row">
           <!-- Articulos -->
-          <div class="columna col-12 col-md-4">
+          <div class="columna col-12 col-md-4 content-es">
             <i class="bi bi-phone"></i>
             <p class="experiencia-titulo">Desarrollo Móvil</p>
             <p>Me gusta mucho el desarrollo móvil, por lo general 
@@ -115,8 +134,22 @@
               <span class="badge text-bg-primary">.NET MAUI</span>
             </div>
           </div>
+          <div class="columna col-12 col-md-4 content-en d-none">
+            <i class="bi bi-phone"></i>
+            <p class="experiencia-titulo">Mobile Development</p>
+            <p>
+              I really enjoy mobile development; I usually work with Flutter. 
+              However, I am also familiar with native development for Android, 
+              iOS, and cross-platform development using .NET MAUI.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Flutter</span>
+              <span class="badge text-bg-primary">iOS</span>
+              <span class="badge text-bg-primary">Android</span>
+              <span class="badge text-bg-primary">.NET MAUI</span>
+            </div>
+          </div>
           <!-- Desarrollo Web -->
-          <div class="columna col-12 col-md-4">
+          <div class="columna col-12 col-md-4 content-es">
             <i class="bi bi-laptop"></i>
             <p class="experiencia-titulo">Desarrollo Web</p>
             <p>He realizado varios trabajos de desarrollo web, utilizando recursos 
@@ -127,13 +160,37 @@
               <span class="badge text-bg-primary">JavaScript</span>
             </div>
           </div>
+          <div class="columna col-12 col-md-4 content-en d-none">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Web Development</p>
+            <p>I have worked on several web development projects using 
+              resources like HTML, CSS, and JavaScript. I am currently in 
+              the process of learning React and Angular.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+            </div>
+          </div>
           <!-- Estudiante -->
-          <div class="columna col-12 col-md-4">
+          <div class="columna col-12 col-md-4 content-es">
             <i class="bi bi-mortarboard"></i>
             <p class="experiencia-titulo">Estudiante</p>
             <p>Estudiante en la universidad de la Salle bajío, actualmente 
               cursando el octavo semestre de la carrera de ingeniería en software
                y sistemas computacionales. Recientemente me certifiqué en AWS.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Salle Bajío</span>
+              <span class="badge text-bg-primary">AWS</span>
+              <span class="badge text-bg-primary">:)</span>
+            </div>
+          </div>
+          <div class="columna col-12 col-md-4 content-en d-none">
+            <i class="bi bi-mortarboard"></i>
+            <p class="experiencia-titulo">Student</p>
+            <p>Student at La Salle Bajío University, currently in 
+              the eighth semester of the Software and Computer Systems 
+              Engineering program. I recently earned a certification in AWS.</p>
             <div class="badges-contenedor">
               <span class="badge text-bg-primary">Salle Bajío</span>
               <span class="badge text-bg-primary">AWS</span>
@@ -146,8 +203,11 @@
 
     <!-- Proyectos -->
     <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
-      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
-      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <h2 class="seccion-titulo texto-negro content-es">Mis proyectos recientes</h2>
+      <h2 class="seccion-titulo texto-negro content-en d-none">My recent projects</h2>
+      <h3 class="seccion-descripcion content-es">Estos son algunos proyectos que he creado recientemente...</h3>
+      <h3 class="seccion-descripcion content-en d-none">These are some projects I have recently created...</h3>
+
       <!-- Galeria de Proyectos -->
       <div class="container text-center proyectos-contenedor">
         <div class="row">
@@ -318,10 +378,9 @@
     <section id="contacto" class="contacto seccion-oscura">
       <div class="container">
         <div class="container text-center rectangulo d-flex justify-content-evenly">
-          <div class="row">
+          <div class="row content-es">
             <div class="col-12 col-md-4 seccion-titulo">
               <h2 id="lblHablemos">¡Hablemos!</h2>
-              
             </div>
             <div class="col-12 col-md-4 descripcion">
               Contáctame para iniciar tu proyecto de desarrollo móvil y haré que tu visión se vuelva realidad.
@@ -331,6 +390,23 @@
               <a href="mailto:valeryabml@gmail.com">
                 <button type="button">  
                   Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="row content-en d-none">
+            <div class="col-12 col-md-4 seccion-titulo">
+              <h2 id="lblHablemos">Let's Talk!</h2>
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contact me to start your mobile development project, and I will make your vision a reality.
+            </div>
+            <div class="col-12 col-md-4">
+              <p>Phone: +55 477 109 3243</p>
+              <a href="mailto:valeryabml@gmail.com">
+                <button type="button">
+                  Contact
                   <i class="bi bi-envelope-check-fill"></i>
                 </button>
               </a>
@@ -363,7 +439,9 @@
           <i class="bi bi-envelope"></i>
         </a>
       </div>
-      <div class="derechos-de-autor">Creado por Valeria Baeza (2025) &#169;</div>
+      <div class="derechos-de-autor content-es">Creado por Valeria Baeza (2025) &#169;</div>
+      <div class="derechos-de-autor content-en d-none">Created by Valeria Baeza (2025) &#169;</div>
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -372,4 +450,7 @@
         <script src="main.js"></script>
 
   </body>
+  <script>
+    
+  </script>
 </html>
