@@ -4,31 +4,7 @@ Este proyecto creado para el bootcamp Tecnolochicas PRO, es una página web adap
 
 El propósito de esta página web es mostrar mi portafolio de proyectos y experiencia. Incluye una descripción breve de mí motivación, experiencia, proyectos y formas de contacto. 
 
-### Capturas de pantalla:
-
-Primera parte de la página web:
-
-![Primera parte de la página web](imagenes/readme/PrimeraParte1.png)
-
-Conóceme:
-
-![Primera parte de la página web](imagenes/readme/Conóceme.png)
-
-Experiencia:
-
-![Experiencia](imagenes/readme/Experiencia.png)
-
-Proyectos:
-
-![Proyectos](imagenes/readme/proyectos.png)
-
-Testimonios:
-
-![Testimonios](imagenes/readme/testimonios.png)
-
-Contacto:
-
-![Contacto](imagenes/readme/Contacto.png)
+Encuéntrala: https://valebm-gif.github.io
 
 ## Tecnologías
 
